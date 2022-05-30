@@ -1,20 +1,20 @@
-/*
+﻿/*
  Target Server Type    : SQLite
  Target Server Version : 3030001
  File Encoding         : 65001
  
  uint32_t Rec;
- uint16_t TId;
- uint16_t Ext;
+ uint16_t TId; // 表号
+ uint16_t Ext; // 表号扩展标识
  
- uint32_t NId;
- uint32_t Idx;
+ uint32_t NId; // 节点编号
+ uint32_t Idx; // 节点索引
  
- uint32_t FId;
- uint32_t Lft;
- uint32_t Rgt;
- uint32_t Lev;
- uint32_t Cnt;
+ uint32_t FId; // 父Id
+ uint32_t Lft; // 左值
+ uint32_t Rgt; // 右值
+ uint32_t Lev; // 层级(从1开始)
+ uint32_t Cnt; // 直接下级数量
  
 */
 
