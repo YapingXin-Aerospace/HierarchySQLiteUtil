@@ -10,7 +10,7 @@
  uint32_t NId; // 节点编号
  uint32_t Idx; // 节点索引
  
- uint32_t FId; // 父Id
+ uint32_t FId; // 父Id(顶级节点设为0)
  uint32_t Lft; // 左值
  uint32_t Rgt; // 右值
  uint32_t Lev; // 层级(从1开始)
