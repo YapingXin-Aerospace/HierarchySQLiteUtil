@@ -50,3 +50,7 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+/Dev/Build/MSVC/Hierarchies-Solution/HierarchySQLiteUtil/HierarchySQLiteUtil.vcxproj.user
+/Dev/Build/MSVC/Hierarchies-Solution/.vs
+/Dev/Build/MSVC/Hierarchies-Solution/IntDir
+/Dev/Build/MSVC/Hierarchies-Solution/Output
