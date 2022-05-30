@@ -2,6 +2,20 @@
  Target Server Type    : SQLite
  Target Server Version : 3030001
  File Encoding         : 65001
+ 
+ uint32_t Rec;
+ uint16_t TId;
+ uint16_t Ext;
+ 
+ uint32_t NId;
+ uint32_t Idx;
+ 
+ uint32_t FId;
+ uint32_t Lft;
+ uint32_t Rgt;
+ uint32_t Lev;
+ uint32_t Cnt;
+ 
 */
 
 PRAGMA foreign_keys = false;
